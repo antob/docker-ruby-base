@@ -1,4 +1,4 @@
-TAG = 1.0
+TAG = 1.1
 RUBY_VERSION = 2.2.2
 PREFIX = antob/ruby-base
 
