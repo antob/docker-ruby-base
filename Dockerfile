@@ -19,7 +19,7 @@ WORKDIR /app
 COPY bashrc /root/.bashrc
 ENV BASH_ENV /root/.bashrc
 
-RUN apt-get update && apt-get install -y git wget vim build-essential libreadline-dev libssl-dev libcurl4-openssl-dev libsasl2-dev libpq-dev libxslt-dev nodejs mysql-client libmysqlclient-dev postgresql-client --no-install-recommends && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y git wget vim build-essential libreadline-dev libssl-dev libcurl4-openssl-dev libsasl2-dev libpq-dev libxslt-dev nodejs mysql-client libmysqlclient-dev postgresql-client openssl ca-certificates --no-install-recommends && rm -rf /var/lib/apt/lists/*
 
 # Set the time zone
 ENV TZ Europe/Stockholm
