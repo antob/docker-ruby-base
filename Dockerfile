@@ -1,4 +1,4 @@
-FROM ruby:2.2.2-slim
+FROM ruby:2.3.3-slim
 MAINTAINER Tobias Lindholm <tob@antob.se>
 
 # Ignore APT warnings about not having a TTY

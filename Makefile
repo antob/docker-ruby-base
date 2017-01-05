@@ -1,5 +1,5 @@
-TAG = 1.5
-RUBY_VERSION = 2.2.2
+TAG = 1.0
+RUBY_VERSION = 2.3.3
 PREFIX = antob/ruby-base
 
 all: build push
